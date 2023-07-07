@@ -1,0 +1,14 @@
+google-collab
+!cd drive && cd MyDrive && cd dragon-cuda && cd dragon-cuda && ls
+!sudo apt update -y
+!sudo apt install -y libgmp-dev && sudo apt install libssl-dev -y
+!sudo apt install libssl-dev -y
+!python --version
+!sudo apt install python3
+!cd drive && cd MyDrive && cd dragon-cuda && cd dragon-cuda && cd x64 && cd Release && ls
+&& cd x64 && cd Release && BinSort 32 xpoint_out.bin xpoint_out_sorted.bin
+!sudo apt install deviceQuery
+!cd drive && cd MyDrive && cd dragon-cuda && cd dragon-cuda && cd Rotor-Cuda &&
+A333333TTANI COULECH !cd /content/drive/MyDrive/btc/Kangaroo/ && ./kangaroo -l
+VOILA Kangaroo v2.2
+GPU #0 Tesla T4 (40x64 cores) (Cap 7.5) (15101.8 MB) (Multiple host threads)
