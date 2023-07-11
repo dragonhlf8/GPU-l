@@ -1,7 +1,7 @@
 google-collab
 !cd drive && cd MyDrive && cd dragon-cuda && cd dragon-cuda && ls
 !sudo apt update -y
-!sudo apt install -y libgmp-dev && sudo apt install libssl-dev -y
+!sudo apt install libgmp-dev -y && sudo apt install libssl-dev -y
 !sudo apt install libssl-dev -y
 !python --version
 !sudo apt install python3
@@ -12,3 +12,31 @@ google-collab
 A333333TTANI COULECH !cd /content/drive/MyDrive/btc/Kangaroo/ && ./kangaroo -l
 VOILA Kangaroo v2.2
 GPU #0 Tesla T4 (40x64 cores) (Cap 7.5) (15101.8 MB) (Multiple host threads)
+
+sudo apt install nvidia-cuda-dev
+-t 0 -g --gpui 0 -m addresses --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i /content/drive/MyDrive/dragon-cuda/dragon-cuda/Rotor-Cuda/hash160_out_sorted.bin -o Found.txt
+./ -t 0 -g --gpui 0 -m addresses --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i hash160_out_sorted.bin -o Found.txt
+
+https://github.com/WanderingPhilosopher/KeyHuntCudaClient/
+
+
+!cd drive && cd MyDrive && cd Keyhunt &&
+
+!cd drive && cd MyDrive && cd KeyHunt-Cuda-3 && ls
+
+./KeyHunt-Cuda -t 0 -g --gpui 0 -m addresses --coin BTC --range 0:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF -i hash160_out_sorted.bin -o Found.txt
+
+sudo apt-get install libbase58-dev
+
+
+!cd drive && cd MyDrive && cd GPU-l && cd GPU && ./kangaroo -gpu -gpuId 0 -o found.txt -w save.work -wi 3000 KEY1.txt
+Vous avez envoyé
+next use -i to start from savework
+
+
+
+
+
+
+
+
